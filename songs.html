@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Band - Songs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("bg_sky3.png");
+            background-position: center center; 
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }    
+        .song-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .song-info {
+            flex: 1;
+        }
+        .song-info-left {
+            order: 1;
+            text-align: left;
+            margin-right: 20px;
+        }
+        .song-info-right {
+            order: 2;
+            text-align: right;
+            margin-left: 20px;
+        }   
+        .song-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    
+        .song-artist {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+    
+        .song-album {
+            margin-bottom: 5px;
+        }
+        .song-cover { 
+            width: 40%; 
+            height: 40%;
+        }
+    
+        .song-cover-left {
+            order: 1;
+            margin-right: 20px;
+        }
+    
+        .song-cover-right {
+            order: 2;
+            margin-left: 20px;
+        }
+    
+        .section1 {
+            background-color: rgba(0, 0, 0, 0.3); 
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            border-radius: 5px;
+            padding: 20px;
+        }
+    
+        .section2 {
+            background-color: rgba(255, 166, 166, 0.3); 
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        .section3 {
+            background-color: rgba(0, 0, 0, 0.3); 
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            border-radius: 5px;
+            padding: 20px;
+        }
+        
+        nav {
+            background-color: #333;
+            text-align: center;
+            border: none;
+        }
+        
+        main {
+            flex: 1;
+        }
+        
+        footer {
+        background-color: #333;
+        color: #f8f8f8;
+        text-align: center;
+        padding: 20px;
+        }
+
+        footer h3 {
+            text-decoration: none;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        footer li:last-child {
+            margin-right: 0;
+        }
+
+        footer a {
+            color: #f8f8f8;
+            text-decoration: none;
+        }
+
+        table, th, td {
+            border: 1px solid rgb(255, 255, 255);
+            border-collapse: collapse;
+            font-family: 'Orbitron', sans-serif; 
+        }
+        tr {
+            text-align: center;
+            font-family: 'Orbitron', sans-serif; 
+
+        }
+    
+        h1, h2, h3 {
+            color: rgb(189, 223, 220); 
+            font-family: 'Orbitron', sans-serif; 
+            font-size:550%"
+
+        }
+        @media (max-width: 768px) {
+            .section1, .section2 {
+                padding: 40px;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .song-container {
+                padding: 0 50px;
+            }
+    
+            .song-info-left {
+                padding-right: 50px;
+            }
+    
+            .song-info-right {
+                padding-left: 50px;
+            }
+    
+            .song-cover-left {
+                margin-right: 0;
+                margin-left: auto;
+            }
+    
+            .song-cover-right {
+                margin-left: 0;
+                margin-right: auto;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">ICEBURG</a></h1>
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="band.html">Band</a></li>
+                <li><a href="songs.html">Songs</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="section1">
+            <h1 style="font-size: 200%; text-align: center;"> Songs </h1>
+        </div>
+        </br>
+        <div class="section1">
+          <h1>- Song List - </h1>
+            <div class="song-container">
+              <div class="song-info song-info-left">
+                <h2 class="song-title">"7 - 1"</h2>
+                <p class="song-artist">Jupiter, Stellar, Electra</p>
+                <p class="song-album">Synth</p>
+              </div>
+              <div class="song-cover song-cover-left">
+                <img src="album_5.png" alt="Album 1 Cover" width=100% height=100%>
+              </div>
+            </div>
+          
+            <div class="song-container">
+              <div class="song-info song-info-right">
+                <h3 class="song-title">"Proletariat without Cheese"</h3>
+                <p class="song-artist">Meteor, Stellar, Electra</p>
+                <p class="song-album">Pop-Punk</p>
+              </div>
+              <div class="song-cover song-cover-left">
+                <img src="album_2.png" alt="Album 2 Cover" width=100% height=100%>
+              </div>
+            </div>
+          
+            <div class="song-container">
+              <div class="song-info song-info-left">
+                <h3 class="song-title">"Catch, Your Honor!"</h3>
+                <p class="song-artist">Jupiter, Stellar</p>
+                <p class="song-album">Dystopian</p>
+              </div>
+              <div class="song-cover song-cover-right">
+                <img src="album_8.png" alt="Album 3 Cover" width=100% height=100%>
+              </div>
+            </div>
+            <div class="song-container">
+              <div class="song-info song-info-right">
+                <h3 class="song-title">"How Much?"</h3>
+                <p class="song-artist">Electra, Meteor, Stellar, Jupiter</p>
+                <p class="song-album">Sci-Fi</p>
+              </div>
+              <div class="song-cover song-cover-left">
+                <img src="album_1.png" alt="Album 4 Cover" width=100% height=100%>
+              </div>
+            </div>
+          
+            <div class="song-container">
+              <div class="song-info song-info-left">
+                <h3 class="song-title">"I Wonder"</h3>
+                <p class="song-artist">Jupiter, Stellar, Meteor, Electra</p>
+                <p class="song-album">Jazz-Punk</p>
+              </div>
+              <div class="song-cover song-cover-right">
+                <img src="album_7.png" alt="Album 5 Cover" width=100% height=100%>
+              </div>
+            </div>
+          
+            <!-- Add more song containers as needed -->
+          
+          </div>
+          
+          
+    </main>
+    <footer>
+      <ul>
+          <li><a href="terms.html">Terms and Conditions</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </footer>
+</body>
+</html>

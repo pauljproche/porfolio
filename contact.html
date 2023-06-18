@@ -3,22 +3,23 @@
 <head>
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wedding Band</title>
+    <title>Wedding Band - Contact</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <style>
+
         body {
-            background-image: url("bandlogo.png");
-            background-position: center center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
+        background-image: url("bg_sky2.png"); 
+        background-position: center center; 
+        background-size: cover; 
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
         }
-        
+
         .section1 {
-            background-color: rgba(0, 0, 0, 0.3);
+            background-color: rgba(0, 0, 0, 0.5); 
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center center;
@@ -27,7 +28,7 @@
         }
     
         .section2 {
-            background-color: rgba(255, 166, 166, 0.25);
+            background-color: rgba(255, 166, 166, 0.8);
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center center;
@@ -37,7 +38,7 @@
         }
 
         .section3 {
-            background-color: rgba(0, 0, 0, 0.3);
+            background-color: rgba(0, 0, 0, 0.3); 
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center center;
@@ -117,65 +118,43 @@
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="band.html">Band</a></li>
                 <li><a href="songs.html">Songs</a></li>
-                <li><a href="events.html">Event</a></li>
+                <li><a href="events.html">Events</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="section1">
-            <div>
-                <h2>WHO ARE WE?</h2>
-                <p> "ICEBURG" is a pop-punk band with synth influences is known for their 
-                    unique blend of energetic music and thought-provoking lyrics. With their 
-                    anti-consumerist and dystopian themes, ICEBURG pushes the boundaries of 
-                    traditional pop-punk and explores deeper social issues. Their music captures the essence of rebellion, questioning societal norms, and advocating
-                    for change. Get ready to embark on a musical journey that combines catchy
-                    melodies, infectious energy, and a dash of synth to create a one-of-a-kind
-                    sonic experience.</p>
-            </div>
-        </div>
-        <div class="section2" style="text-align: center;">
-            <h1>LATEST ALBUM</h1>
-            <p><a href="songs.html">
-                <img src = "album_5.png" style =width:50%;height:50%;>
-                </a>
-            </p>
-        </div>
-        </br>
-        <div class="section3" style="text-align: center;">
-            <div>
-                <h2>TAKING COMMISSIONS!</h2>
-                <p>Reach out 
-                <a href="contact.html" style="color: #f8f8f8">
-                    here
-                </a>to hire for weddings, graduations, or events!
-                </p>
-            </div>
-            <div>
-                <h3>2023 Tour - Upcoming Concerts</h3>
-                <table style="margin: 0 auto;">
-                    <tr>
-                      <th>Location</th>
-                      <th>Date</th>
-                      <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>XYZ Wedding Venue</th>
-                        <th>June 27, 2023</th>
-                        <th>7:00 PM EST</th>
-                    </tr>
-                    <tr>
-                        <th>ABC Music Festival</th>
-                        <th>July 15, 2023</th>
-                        <th>9:00 PM EST</th>
-                    </tr>
-                    <tr>
-                        <th>PQR Wedding Venue</th>
-                        <th>August 3, 2023</th>
-                        <th>6:30 PM EST</th>
-                    </tr>
-                </table>
-            </div>
+            <h1>Contact Us</h1>
+            <p>Thank you for your interest in hiring our band for your event! Please fill out the form below and provide us with the necessary details. We offer different pricing ranges based on the type of event:</p>
+            <br/>
+            <h3>Wedding Commissions</h3>
+            <p>Our wedding commissions are specially tailored for couples looking to create a memorable musical experience for their big day. We offer affordable packages that include live performances during the ceremony, cocktail hour, and reception. Prices for wedding commissions start at $1500. Contact us for a personalized quote based on your specific requirements.</p>
+            <br/>
+            <h3>Events and Other Occasions</h3>
+            <p>In addition to weddings, our band is available for various events such as corporate functions, parties, and festivals. Our pricing for events varies based on factors such as event duration, location, and specific requirements. Please provide us with as much information as possible about your event, and we will get back to you with a customized quote based on your needs.</p>
+            <br/>
+            <br/>
+            <h3>Contact Form</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="event-type">Event Type:</label>
+                <select id="event-type" name="event-type" required>
+                    <option value="wedding-commission">Wedding Commission</option>
+                    <option value="graduation">Graduation Event</option>
+                    <option value="event">Music Event</option>
+                </select>
+
+                <label for="event-details">Event Details:</label>
+                <textarea id="event-details" name="event-details" rows="5" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+            <br/>
         </div>
     </main>
     <footer>

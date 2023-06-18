@@ -1,0 +1,81 @@
+body, h1, h2, h3, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+}
+
+ 
+
+/* Each state */
+
+a {
+  text-decoration: none;
+}
+a:visited { text-decoration: none; color:rgb(189, 223, 220); }
+a:hover { text-decoration: none; color:rgb(0, 0, 0); }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header, nav, main, footer {
+  padding: 20px;
+}
+
+header, footer {
+  background-color: #333;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #333; 
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  header, footer {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin: 5px;
+  }
+}

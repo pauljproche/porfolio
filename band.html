@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Band - Band Members</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        .band-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .band-member-image {
+            width: 20%; 
+            height: 20%;
+            margin-right: 20px;
+        }
+
+        .band-member-name {
+            font-weight: bold;
+        }
+
+        .band-member-bio {
+            margin-top: 5px;
+        }
+        body {
+            background-image: url("bg_sky6.png");
+            background-position: center center; /* Center bg image */
+            background-size: cover; /* now cover the entire screen */
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }  
+        .section1 {
+            background-color: rgba(0, 0, 0, 0.3); /* bg color & transparancy */
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            border-radius: 5px;
+            padding: 20px;
+        }
+    
+        .section2 {
+            background-color: rgba(255, 166, 166, 0.3); 
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        .section3 {
+            background-color: rgba(0, 0, 0, 0.3);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            border-radius: 5px;
+            padding: 20px;
+        }
+        
+        nav {
+            background-color: #333;
+            text-align: center;
+            border: none;
+        }
+        
+        main {
+            flex: 1;
+        }
+        
+        footer {
+        background-color: #333;
+        color: #f8f8f8;
+        text-align: center;
+        padding: 20px;
+        }
+
+        footer h3 {
+            text-decoration: none;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        footer li:last-child {
+            margin-right: 0;
+        }
+
+        footer a {
+            color: #f8f8f8;
+            text-decoration: none;
+        }
+
+        table, th, td {
+            border: 1px solid rgb(255, 255, 255);
+            border-collapse: collapse;
+            font-family: 'Orbitron', sans-serif; 
+        }
+        tr {
+            text-align: center;
+            font-family: 'Orbitron', sans-serif; 
+
+        }
+    
+        h1, h2, h3 {
+            color: rgb(189, 223, 220); 
+            font-family: 'Orbitron', sans-serif; 
+            font-size:550%"
+
+        }
+        @media (max-width: 768px) {
+            .section1, .section2 {
+                padding: 40px;
+            }
+            .band-member-image {
+                width: 50%; 
+                height: 50%;
+                margin-right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 200%;"><a href="index.html">ICEBURG</a></h1>
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="band.html">Band</a></li>
+                <li><a href="songs.html">Songs</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="section1">
+            <h1>- The Band - </h1>
+            <div class="band-member">
+                <img class="band-member-image" src="band3.png" alt="Band Member 1" width=100% height=100%>
+                <div>
+                    <h3 class="band-member-name">John "Jupiter" Smith</h3>
+                    <p class="band-member-bio">John "Jupiter" Smith is the lead vocalist and guitarist of the band. With his powerful and dynamic vocals, he delivers emotional performances that resonate with audiences. His guitar skills are a mix of raw energy and melodic finesse, driving the band's sound with infectious hooks and memorable riffs.</p>
+                </div>
+            </div>
+            <div class="band-member">
+                <img class="band-member-image" src="band1.png" alt="Band Member 2" width=100% height=100%>
+                <div>
+                    <h3 class="band-member-name">Sarah "Stellar" Johnson</h3>
+                    <p class="band-member-bio">Sarah "Stellar" Johnson is the keyboardist and synth master of the band. Her deep passion for techno and synth genres is evident in her captivating performances. With her skillful manipulation of electronic sounds and futuristic melodies, she creates mesmerizing sonic landscapes that transport listeners to another dimension.</p>
+                </div>
+            </div>
+            <div class="band-member">
+                <img class="band-member-image" src="band4.png" alt="Band Member 3" width=100% height=100%>
+                <div>
+                    <h3 class="band-member-name">Mike "Meteor" Thompson</h3>
+                    <p class="band-member-bio">Mike "Meteor" Thompson is the bassist of the band, infusing their music with a unique blend of rock and jazz fusion. His deep understanding of groove and rhythm drives the band's energy, while his improvisational skills bring spontaneity and excitement to their live performances. With his intricate basslines and melodic solos, he adds depth and complexity to the band's sound.</p>
+                </div>
+            </div>
+            <div class="band-member">
+                <img class="band-member-image" src="band2.png" alt="Band Member 4" width=100% height=100%>
+                <div>
+                    <h3 class="band-member-name">Erin "Electra" Chen</h3>
+                    <p class="band-member-bio">Erin "Electra" Chen is the violinist and string instrument virtuoso of the band. Her passion for music and her exceptional talent on the violin shine through in her performances. With her captivating melodies and expressive playing, she adds a touch of elegance and emotional depth to the band's music. Her mesmerizing violin solos create moments of pure enchantment for the audience.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="terms.html">Terms and Conditions</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
